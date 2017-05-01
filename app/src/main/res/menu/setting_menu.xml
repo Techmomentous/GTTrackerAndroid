@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/sync"
+        android:icon="@drawable/synchronization"
+        android:orderInCategory="10"
+        app:showAsAction="always"
+        android:title="@string/menu_synchronization">
+    </item>
+    <item
+        android:id="@+id/save"
+        android:icon="@drawable/save"
+        android:orderInCategory="10"
+        app:showAsAction="always"
+        android:title="@string/menu_save">
+    </item>
+    <item
+        android:id="@+id/registerd"
+        android:icon="@drawable/registerd"
+        android:orderInCategory="10"
+        app:showAsAction="always"
+        android:title="@string/menu_registration">
+    </item>
+   
+</menu>

@@ -1,0 +1,186 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.lt.gpstracker.activity.TrackerMainActivity" >
+
+    <LinearLayout
+        android:id="@+id/txtNameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/group_top"
+        android:focusable="true"
+        android:focusableInTouchMode="true" >
+
+        <TextView
+            android:id="@+id/textUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_username_text"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/DarkGreen"
+            android:textColorHint="@color/DarkGreen" />
+
+        <EditText
+            android:id="@+id/txtUserName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@android:color/transparent"
+            android:enabled="false"
+            android:inputType="textPersonName"
+            android:textColor="@color/DarkGreen"
+            android:textColorHint="@color/DarkGreen" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/memberid_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/group_row" >
+
+        <TextView
+            android:id="@+id/textMemberID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_memberid_text"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/DarkGreen"
+            android:textColorHint="@color/DarkGreen" />
+
+        <EditText
+            android:id="@+id/txtMemberID"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:enabled="false"
+            android:inputType="number"
+            android:textColor="@color/DarkGreen"
+            android:textColorHint="@color/DarkGreen" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/websiteurl_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/group_row" >
+
+        <TextView
+            android:id="@+id/textUrl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_url"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/DarkGreen"
+            android:textColorHint="@color/DarkGreen" />
+
+        <EditText
+            android:id="@+id/txtWebsite"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:enabled="false"
+            android:inputType="textUri"
+            android:textColor="@color/DarkGreen"
+            android:textColorHint="@color/DarkGreen" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/interval_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/group_row" >
+
+        <TextView
+            android:id="@+id/textInterval"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_update_interval"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/DarkGreen"
+            android:textColorHint="@color/DarkGreen" />
+
+        <EditText
+            android:id="@+id/txtIntervale"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:enabled="false"
+            android:inputType="number"
+            android:textColor="@color/DarkGreen"
+            android:textColorHint="@color/DarkGreen" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lat_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/group_row" >
+
+        <TextView
+            android:id="@+id/textLatitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_latitude"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/DarkGreen"
+            android:textColorHint="@color/DarkGreen" />
+
+        <EditText
+            android:id="@+id/txtLatitude"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:enabled="false"
+            android:inputType="text"
+            android:textColor="@color/DarkGreen"
+            android:textColorHint="@color/DarkGreen" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lng_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/group_bottom" >
+
+        <TextView
+            android:id="@+id/textLongitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_Longitude"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/DarkGreen"
+            android:textColorHint="@color/DarkGreen" />
+
+        <EditText
+            android:id="@+id/txtLongitude"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:enabled="false"
+            android:inputType="text"
+            android:textColor="@color/DarkGreen"
+            android:textColorHint="@color/DarkGreen" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/trackingButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/red_tracking_button"
+        android:height="50dip"
+        android:text="@string/tracking_is_off" />
+
+</LinearLayout>

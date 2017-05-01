@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LocationTracker APP V1</string>
+    <!-- All the url is localhost url only for demo and testing -->
+    <string name="default_upload_website">http://192.168.1.64:8080/LocationTracker/LocationService</string>
+    <string name="locationServiceURL">/LocationTracker/LocationService</string>
+    <string name="gcmServiceURL">/LocationTracker/GCMService</string>
+    <string name="messageServiceURL">/LocationTracker/MessageService</string>
+    <string name="tracking_is_off">Tracking is Off</string>
+    <string name="tracking_is_on">Tracking is On</string>
+    <string name="user_needs_to_restart_tracking">Please restart tracking to change the time interval.</string>
+    <string name="reachability_error">Cannot reach the website that you have entered. Did you spell it correctly? Does your website use http or https?</string>
+    <string name="textfields_empty_or_spaces">Please fill in both fields. User names cannot have a space.</string>
+    <string name="google_play_services_unavailable">Please go into Settings > Apps > All and enable Google Play Services.</string>
+    <string name="user_name">Enter Member Name</string>
+    <string name="upload_website">Enter Tracker Web APP IP </string>
+    <string name="upload_website_port">Enter Tracker Web APP Port</string>
+    <string name="upload_frequency">Update website every:</string>
+    <string name="one_minute">1 minute</string>
+    <string name="five_minutes">5 minutes</string>
+    <string name="fifteen_minutes">15 minutes</string>
+    <string name="text_memberid_hint">Enter Member ID</string>
+    <string name="txt_projectid_hint">Enter GCM Project ID:</string>
+    <string name="txt_regid_hint">Your GCM Registration ID show here once you registered:</string>
+    <string name="title_activity_notification">NotificationActivity</string>
+    <!-- GCM Push Notification messages -->
+    <string name="newMessage">You have new Unread Message : </string>
+    <string name="notification_text_hint">No New Notifications</string>
+    <string name="title_activity_main">G Tracker</string>
+    <string name="marker_message">Your Current Location</string>
+    <string name="gcm_service_reg_method">deviceRegistration</string>
+    <string name="gcm_sync_field_empty_message">Before Processing Please Make Sure You Have Fill All The Required Details. \n Also Make Sure You have the Registration ID obtain from GMC</string>
+    <string name="gcm_registration_success_message">Congratulations! \n You have successfully Setup your device for LocationTracker. \n Enjoy The Tracking!!!!!</string>
+    <string name="gcm_registration_failur_message">Opps!!!\n Something is wrong. \n Please Make Sure GTracker Web APP is runnning with an active internet connection or \n Is your device Connected ? </string>
+    <!-- Nav Drawer Menu Items -->
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>My Tracker</item>
+        <item>Settings</item>
+        <item>Messaging</item>
+        <item>My Location</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/tracker</item>
+        <item>@drawable/settings</item>
+        <item>@drawable/messaging</item>
+        <item>@drawable/location</item>
+    </array>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="btnsetup_text">Save Settings</string>
+    <string name="btnRegistraction_text">Registered</string>
+    <string name="txt_interval_setting">Update Interval :</string>
+    <string name="txt_username_text">Member Name :</string>
+    <string name="txt_memberid_text">Member ID :</string>
+    <string name="txt_url">URL :</string>
+    <string name="txt_update_interval">Update Interval :</string>
+    <string name="text_latitude">Latitude :</string>
+    <string name="text_Longitude">Longitude :</string>
+
+    <string-array name="map_types">
+        <item>NORMAL</item>
+        <item>HYBRID</item>
+        <item>SATELLITE</item>
+        <item>TERRAIN</item>
+        <item>NONE</item>
+    </string-array>
+    <string-array name="message_types">
+        <item>It`s Urgent</item>
+        <item>Call Notice</item>
+        <item>Request</item>
+        <item>ASAP</item>
+    </string-array>
+    <!-- API KEYS -->
+    <string name="project_api_key">AIzaSyB3VkHQDJTKxTiFeotLcLO5wfDnRF9nVtE</string>
+    <string name="gms_version">7571000</string>
+    <string name="spinner_text_view">Change Map Style</string>
+    <string name="btn_enable_location">Enable Location</string>
+    <string name="menu_synchronization">Sync With APP Server</string>
+    <string name="menu_save">Save Settings</string>
+    <string name="menu_registration">Registered Device To Google Cloud</string>
+    <string name="btn_enable_zoom_txt">Enable Zoom</string>
+    <string name="btn_enable_map_rotate_gesture">Enable Map Rotate Gesture</string>
+    <string name="notification_btn_text">View Notification</string>
+    <string name="txt_message_type">Message Type</string>
+    <string name="message_hint_text">Enter Your Message</string>
+
+</resources>

@@ -1,0 +1,130 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/setttings_scrollview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark">
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.lt.gpstracker.activity.TrackerMainActivity" >
+
+        <EditText
+            android:id="@+id/txtUserName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/group_top"
+            android:hint="@string/user_name"
+            android:inputType="textPersonName"
+            android:textColor="@color/DarkGreen"
+            android:textColorHint="@color/DarkGreen" />
+
+        <EditText
+            android:id="@+id/txtMemberID"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/group_row"
+            android:hint="@string/text_memberid_hint"
+            android:inputType="number"
+            android:textColor="@color/DarkGreen"
+            android:textColorHint="@color/DarkGreen" />
+
+        <EditText
+            android:id="@+id/txtProjectID"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/group_row"
+            android:hint="@string/txt_projectid_hint"
+            android:inputType="number"
+            android:textColor="@color/DarkGreen"
+            android:textColorHint="@color/DarkGreen" />
+
+        <EditText
+            android:id="@+id/txtRegID"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/group_row"
+            android:enabled="false"
+            android:hint="@string/txt_regid_hint"
+            android:inputType="textMultiLine"
+            android:singleLine="false"
+            android:textColor="@color/DarkGreen"
+            android:textColorHint="@color/DarkGreen" />
+
+        <EditText
+            android:id="@+id/txtWebsite"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/group_row"
+            android:ems="10"
+            android:hint="@string/upload_website"
+            android:inputType="number|text"
+            android:textColor="@color/DarkGreen"
+            android:textColorHint="@color/DarkGreen" />
+
+        <EditText
+            android:id="@+id/txtPort"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/group_bottom"
+            android:ems="10"
+            android:hint="@string/upload_website_port"
+            android:inputType="number"
+            android:textColor="@color/DarkGreen"
+            android:textColorHint="@color/DarkGreen" />
+
+        <TextView
+            android:id="@+id/lblInterval"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="@string/upload_frequency"
+            android:textColor="@android:color/black"
+            android:textSize="25sp" />
+
+        <RadioGroup
+            android:id="@+id/intervalRadioGroup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border_small" >
+
+            <RadioButton
+                android:id="@+id/i1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/one_minute"
+                android:textColor="@color/DarkGreen" >
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/i5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/five_minutes"
+                android:textColor="@color/DarkGreen" >
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/i15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fifteen_minutes"
+                android:textColor="@color/DarkGreen" >
+            </RadioButton>
+        </RadioGroup>
+    </LinearLayout>
+
+</ScrollView>

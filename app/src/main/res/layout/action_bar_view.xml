@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/actionbar_customview"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:gravity="end"
+    android:orientation="horizontal" >
+
+    <RadioButton
+        android:id="@+id/btnenable_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/btn_enable_location"
+        android:textColor="@color/DarkGreen" />
+
+    <RadioButton
+        android:id="@+id/btnenable_zoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@id/btnenable_location"
+        android:layout_toRightOf="@id/btnenable_location"
+        android:text="@string/btn_enable_zoom_txt"
+        android:textColor="@color/DarkGreen" />
+
+</RelativeLayout>
