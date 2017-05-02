@@ -10,3 +10,8 @@ b.	Google Maps V3 API
 c.	Google Geolocation API
 
 d.	Android Location Sensors API
+
+##NOTE
+If you need datbase or help to setup contact me at info@techmomentous.com
+
+##A Project by Techmomentous
